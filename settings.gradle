@@ -1,2 +1,4 @@
+include ':bannerMoudle'
 include ':app'
 rootProject.name = "xuiDemo"
+rootProject.name = "xutiltest"

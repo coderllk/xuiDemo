@@ -1,4 +1,4 @@
-package com.llk.xuidemo;
+package com.llk.bannermoudle;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,7 +15,7 @@ public class BannerAdapter extends RecyclerView.Adapter<BannerAdapter.BannerView
 
     private String[] urls;
     private Context context;
-    public BannerAdapter(Context context,String[] urls){
+    public BannerAdapter(Context context, String[] urls){
         this.urls = urls;
         this.context = context;
     }
