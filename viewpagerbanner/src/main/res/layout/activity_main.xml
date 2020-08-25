@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.xuexiang.xui.widget.banner.widget.banner.SimpleImageBanner
+        android:id="@+id/sib_simple_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bb_indicatorGravity="RIGHT"
+        app:bb_indicatorHeight="4dp"
+        app:bb_indicatorWidth="10dp"
+        app:bb_scale="0.5625" />
+
+    <com.xuexiang.xui.widget.banner.widget.banner.SimpleTextBanner
+        android:id="@+id/stb_simple_textBanner"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:bb_isIndicatorShow="false" />
+
+</LinearLayout>

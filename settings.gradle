@@ -1,3 +1,4 @@
+include ':viewpagerbanner'
 include ':bannerMoudle'
 include ':app'
 rootProject.name = "xuiDemo"
