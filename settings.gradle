@@ -1,3 +1,4 @@
+include ':bottomdialogmoudle'
 include ':dialogmoudle'
 include ':userguidemoudle'
 include ':viewpagerbanner'
